@@ -1,0 +1,1 @@
+C:\yazCalisma\speech_to_text\build\app\intermediates\cxx\Debug\4n2gf5n2\obj\arm64-v8a

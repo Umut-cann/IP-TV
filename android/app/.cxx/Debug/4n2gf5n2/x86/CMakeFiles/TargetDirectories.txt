@@ -1,0 +1,2 @@
+C:/yazCalisma/speech_to_text/android/app/.cxx/Debug/4n2gf5n2/x86/CMakeFiles/edit_cache.dir
+C:/yazCalisma/speech_to_text/android/app/.cxx/Debug/4n2gf5n2/x86/CMakeFiles/rebuild_cache.dir
