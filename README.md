@@ -1,16 +1,45 @@
-# speech_to_text
+# IP-TV Oynatıcı
 
-A new Flutter project.
+Bu proje, Flutter ile geliştirilmiş basit bir IPTV oynatıcı uygulamasıdır. Kullanıcıların M3U8 formatındaki canlı TV yayınlarını izlemesine olanak tanır.
 
-## Getting Started
+## ✨ Özellikler
 
-This project is a starting point for a Flutter application.
+- **Kategorize Edilmiş Kanallar:** TV kanalları, spor, haber gibi sekmeler altında düzenlenmiştir.
+- **Dahili Video Oynatıcı:** `video_player` ve `chewie` paketlerini kullanarak akıcı bir izleme deneyimi sunar.
+- **Arama Fonksiyonu:** Kullanıcıların istedikleri kanalı kolayca bulmasını sağlar.
+- **Kullanıcı Dostu Arayüz:** Modern ve karanlık tema destekli bir tasarıma sahiptir.
+- **Tam Ekran Desteği:** Yayınları tam ekran modunda izleme imkanı sunar.
 
-A few resources to get you started if this is your first Flutter project:
+## 🛠️ Kullanılan Teknolojiler
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- **Flutter:** Google tarafından geliştirilen, tek bir kod tabanından mobil, web ve masaüstü için güzel, yerel olarak derlenmiş uygulamalar oluşturmaya yönelik kullanıcı arayüzü araç takımı.
+- **Dart:** İstemci tarafında optimize edilmiş, hızlı uygulamalar geliştirmek için kullanılan bir programlama dili.
+- **Paketler:**
+  - `video_player`: Video dosyalarını oynatmak için temel bir eklenti.
+  - `chewie`: `video_player` için özelleştirilebilir kontroller sunan bir sarmalayıcı.
+  - `flutter_vlc_player`: Alternatif bir video oynatıcı seçeneği.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🚀 Projeyi Başlatma
+
+Projeyi yerel makinenizde çalıştırmak için aşağıdaki adımları izleyin:
+
+1. **Depoyu klonlayın:**
+   ```sh
+   git clone https://github.com/Umut-cann/IP-TV.git
+   ```
+2. **Proje dizinine gidin:**
+   ```sh
+   cd IP-TV
+   ```
+3. **Gerekli paketleri yükleyin:**
+   ```sh
+   flutter pub get
+   ```
+4. **Uygulamayı çalıştırın:**
+   ```sh
+   flutter run
+   ```
+
+## 📝 Nasıl Çalışır?
+
+Uygulama, `lib/dataM3u/data.dart` dosyası içinde önceden tanımlanmış bir TV kanalı listesini yükler. Bu kanallar, kategorilere ayrılmış sekmeler halinde kullanıcı arayüzünde görüntülenir. Kullanıcı bir kanala tıkladığında, ilgili M3U8 yayını dahili video oynatıcı ile oynatılmaya başlar.
