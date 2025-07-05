@@ -17,39 +17,7 @@ final List<Map<String, String>> channels = [
 
 
 
-  {
-    'name': 'beinsports1',
-    'url': 'https://hemen.space/cdn/bein_sports_1_hd/main.m3u8',
-    'logo': 'https://img.ulusal.com.tr/rcman/Cw748h416q95gc/storage/files/images/2022/11/06/bbein-JnuH.png'
-  },
-  {
-    'name': 'beinsports2',
-    'url': 'https://hemen.space/cdn/bein_sports_2_hd/main.m3u8',
-    'logo': 'https://img.ulusal.com.tr/rcman/Cw748h416q95gc/storage/files/images/2022/11/06/bbein-JnuH.png'
-  },
-  {
-    'name': 'beinsports3',
-    'url': 'https://hemen.space/cdn/bein_sports_3_hd/main.m3u8',
-    'logo': 'https://img.ulusal.com.tr/rcman/Cw748h416q95gc/storage/files/images/2022/11/06/bbein-JnuH.png'
-  },
-  {
-    'name': 'beinsports4',
-    'url': 'https://hemen.space/cdn/bein_sports_4_hd/main.m3u8',
-    'logo': 'https://img.ulusal.com.tr/rcman/Cw748h416q95gc/storage/files/images/2022/11/06/bbein-JnuH.png'
-  },
-
-   {
-    'name': 'beinsports max 1',
-    'url': 'https://hemen.space/cdn/bein_sports_max_1_hd/main.m3u8',
-    'logo': 'https://img.ulusal.com.tr/rcman/Cw748h416q95gc/storage/files/images/2022/11/06/bbein-JnuH.png'
-  },
-
-   {
-    'name': 'beinsportsm max 2',
-    'url': 'https://hemen.space/cdn/bein_sports_max_2_hd/main.m3u8',
-    'logo': 'https://img.ulusal.com.tr/rcman/Cw748h416q95gc/storage/files/images/2022/11/06/bbein-JnuH.png'
-  },
-
+ 
 
   {
     'name': 'TRT 2',
@@ -218,75 +186,4 @@ final List<Map<String, String>> tvChannels = [
   {'name': 'Doğa', 'url': 'https://ythls.kekikakademi.org/youtube/video/mbqiXyhQbFQ.m3u8', 'logo': 'https://i.ytimg.com/vi/mbqiXyhQbFQ/hqdefault.jpg'},
 ];
 
-   final List<Map<String, String>> skecler = [
-  {
-    "logo": "https://i.ytimg.com/vi/li4kIJdyxs4/hqdefault.jpg",
-    "name": "Yeşil Çam",
-    "url": "https://ythls.kekikakademi.org/youtube/channel/UCUALYmnkEmx8vlxIbpr2gmw.m3u8"
-  },
-  {
-    "logo": "https://i.ytimg.com/vi/lDI6Lbxhz6Y/hqdefault.jpg",
-    "name": "Kemal Sunal",
-    "url": "https://ythls.kekikakademi.org/youtube/channel/UCoIUysIrvGxoDw-GkdOGjRw.m3u8"
-  },
-  {
-    "logo": "https://i.ytimg.com/vi/PTp6hmibGSc/hqdefault.jpg",
-    "name": "Şener Şen",
-    "url": "https://ythls.kekikakademi.org/youtube/channel/UCulg-mlXf314L1pemPqCVng.m3u8"
-  },
-  {
-    "logo": "https://i.ytimg.com/vi/asbzUzzLwxs/hqdefault.jpg",
-    "name": "Behzat Ç.",
-    "url": "https://ythls.kekikakademi.org/youtube/channel/UCH3WnhFSx9r850HJRRs16lQ.m3u8"
-  },
-  {
-    "logo": "https://i.ytimg.com/vi/lf1NxAexRAE/hqdefault.jpg",
-    "name": "Cennet Mahallesi",
-    "url": "https://ythls.kekikakademi.org/youtube/channel/UCOqe-z52nnpVSAe8Ds0fxaA.m3u8"
-  },
-  {
-    "logo": "https://i.ytimg.com/vi/JX5mSkUfxmk/hqdefault.jpg",
-    "name": "Güldür Güldür",
-    "url": "https://ythls.kekikakademi.org/youtube/channel/UCdlEXiVLTEvA280oyMvr8Kw.m3u8"
-  },
-  {
-    "logo": "https://i.ytimg.com/vi/vzcV17H4pgk/hqdefault.jpg",
-    "name": "eee Sonra",
-    "url": "https://ythls.kekikakademi.org/youtube/channel/UCt28gd-5rh24_UPRwf-dulQ.m3u8"
-  },
-  {
-    "logo": "https://i.ytimg.com/vi/So3gvma5Fmc/hqdefault.jpg",
-    "name": "İşler Güçler",
-    "url": "https://ythls.kekikakademi.org/youtube/channel/UCALHvpjqmBwdRwYPc3qVezw.m3u8"
-  },
-  {
-    "logo": "https://i.ytimg.com/vi/A-VMV-mJFiY/hqdefault.jpg",
-    "name": "Geniş Aile",
-    "url": "https://ythls.kekikakademi.org/youtube/channel/UC-_QrTM2lCjRhlv4l0vLJmw.m3u8"
-  },
-  {
-    "logo": "https://i.ytimg.com/vi/2X5QsM3Z8pQ/hqdefault.jpg",
-    "name": "Yalan Dünya",
-    "url": "https://ythls.kekikakademi.org/youtube/channel/UCN2Q-lSzQa7RjrCxQZ8DzbA.m3u8"
-  },
-  {
-    "logo": "https://i.ytimg.com/vi/RObRiZDDLEk/hqdefault.jpg",
-    "name": "Türk Malı",
-    "url": "https://ythls.kekikakademi.org/youtube/channel/UCpSOc0PBZP3eVjEAhFoq3rg.m3u8"
-  },
-  {
-    "logo": "https://i.ytimg.com/vi/hzRyv4pyeO0/hqdefault.jpg",
-    "name": "Sihirli Annem",
-    "url": "https://ythls.kekikakademi.org/youtube/channel/UCNjRKDlSvo1H38XTkbIrMsA.m3u8"
-  },
-  {
-    "logo": "https://i.ytimg.com/vi/78sojzQcvgs/hqdefault.jpg",
-    "name": "Çilek Kokusu",
-    "url": "https://ythls.kekikakademi.org/youtube/channel/UC3uB257qcHNt-Ri-iPx7uVA.m3u8"
-  },
-  {
-    "logo": "https://i.ytimg.com/vi/ESNRjuK9QdU/hqdefault.jpg",
-    "name": "Adını Feriha Koydum",
-    "url": "https://ythls.kekikakademi.org/youtube/channel/UCtkp8YehDHBNJ63CS9xwIQg.m3u8"
-  }
-];
+  

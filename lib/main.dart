@@ -6,7 +6,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:video_player/video_player.dart';
 import 'package:chewie/chewie.dart';
-import 'package:ip_tv/dataM3u.dart/data.dart';
+import 'package:ip_tv/dataM3u/data.dart';
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
@@ -329,9 +329,7 @@ class _IPTVPlayerPageState extends State<IPTVPlayerPage> with SingleTickerProvid
       case 'Sports':
         items = channels;
         break;
-      case 'Sketches':
-        items = skecler;
-        break;
+ 
       default:
         items = channels; // Default to channels instead of films
         break;
